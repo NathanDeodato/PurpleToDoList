@@ -1,0 +1,139 @@
+/* config-font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+/* config-body */
+
+body {
+  color: #FFFFFF;
+  background-color: #1c1c1c;
+
+  font-family: 'Oswald', sans-serif;
+}
+
+/* config-header */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2.2em;
+}
+
+/* config-main */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDoListContainer {
+  width: 30vw;
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #7B68EE;
+  border-radius: 20px;
+}
+
+.toDoBox {
+  width: 90%;
+  height: 15%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputToDo {
+  width: 85%;
+  height: 45%;
+
+  font-size: 0.8em;
+
+  color: #FFFFFF;
+  background-color: #A192FB;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.toDoAdd {
+  width: 10%;
+  height: 45%;
+
+  font-size: 1.4em;
+
+  color: #FFFFFF;
+  background-color: #A192FB;
+  border: none;
+  border-radius: 8px 0px 8px 0px;
+}
+.toDoAdd:hover {
+  cursor: pointer;
+}
+
+.toDoListBox {
+  width: 100%;
+  height: 85%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #A192FB;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.toDoMiniBox {
+  width: 95%;
+  height: 10%;
+
+  margin-top: 3%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #7B68EE;
+  border-radius: 5px;
+}
+
+.itemToDo {
+  width: 80%;
+  height: 5vh;
+
+  font-size: 0.9em;
+
+  margin-left: 2%;
+
+  display: flex;
+  align-items: center;
+}
+
+.itemDeleteBox {
+  width: 20%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.itemDelete {
+  width: 2vw;
+}
+.itemDelete:hover {
+  cursor: pointer;
+}
+
+
+/* config-footer */
+
+footer {
+  text-align: center;
+}
