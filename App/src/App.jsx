@@ -30,12 +30,12 @@ export default class AppToDoList extends Component {
       <div>
 
         <header>
+          
+          <a href="https://purplesystem.netlify.app/">
 
-          <img className="systemHome" src={home}>
-          
-            <a href="https://purplesystem.netlify.app/"></a>
-          
-          </img>
+            <img className="systemHome" src={home}></img>
+
+          </a>
 
             <h1 className="title">
               Purple ToDoList
