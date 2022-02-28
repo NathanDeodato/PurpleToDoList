@@ -13,12 +13,25 @@ body {
 /* config-header */
 
 header {
+  height: 15vh;
+
   display: flex;
   justify-content: center;
 }
 
+.systemHome {
+  width: 2.5vw;
+
+  position: absolute;
+  top: 3%;
+  left: 2%;
+}
+.systemHome:hover {
+  cursor: pointer;
+}
+
 .title {
-  font-size: 2.2em;
+  font-size: 2em;
 }
 
 /* config-main */

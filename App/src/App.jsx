@@ -5,7 +5,7 @@ import React, { Component } from "react"
 import "./App.css"
 
 // Icons
-import {deletee} from "../src/Assets"
+import {home, deletee} from "../src/Assets"
 
 export default class AppToDoList extends Component {
   state = {
@@ -30,13 +30,14 @@ export default class AppToDoList extends Component {
       <div>
 
         <header>
-          <section className="titleBox">
+
+          <a href="">
+            <img className="systemHome" src={home}></img>
+          </a>
 
             <h1 className="title">
               Purple ToDoList
             </h1>
-
-          </section>
           
         </header>
 
